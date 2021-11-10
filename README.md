@@ -108,7 +108,6 @@ A balanced data set is a set that contains all elements observed in all time fra
  
 To determine if the data is random, I conduct a t-test for randomization on balanced and unbalanced panel data. t-value is 5.512 and p-value= 4.163e-08 which is significant. Consequently, the data is not randomly missing.
 
-
 <p align="center"><img width="698" alt="Screen Shot 2021-11-09 at 9 03 41 PM" src="https://user-images.githubusercontent.com/93355594/141036127-4e65efd0-fe6f-42c9-8980-719164072a5d.png">
 
 ### Findings
