@@ -90,7 +90,7 @@ I create a panel data of my current dataset with Country ID as the entity ID and
   
 The coefficient on _loggdp_ is 1.229 and is statistically significant. This implies that the treatment effect remains positive, but the OLS specification seems to have been biased downward the effect of Log GDP on happiness by omitting entity and time effects.
  
-I took a deeper look at the panel regression model by examining the effect of Log GDP per capita on Hapiness with balanced and unbalanced panel data for a period of eight years from 2014 - 2021.
+I take a deeper look at the panel regression model by examining the effect of Log GDP per capita on Hapiness with balanced and unbalanced panel data for a period of eight years from 2014 - 2021.
  
 <p align="center"> Balanced panel data (85 countries for a total of 680 observations)
 
@@ -108,7 +108,7 @@ A balanced data set is a set that contains all elements observed in all time fra
  
 To determine if the data is random, I conduct a t-test for randomization on balanced and unbalanced panel data. t-value is 5.512 and p-value= 4.163e-08 which is significant. Consequently, the data is not randomly missing.
 
-<p align="center"><img width="698" alt="Screen Shot 2021-11-09 at 9 03 41 PM" src="https://user-images.githubusercontent.com/93355594/141036127-4e65efd0-fe6f-42c9-8980-719164072a5d.png">
+<p align="center"><img width="581" alt="Screen Shot 2021-11-11 at 9 01 26 PM" src="https://user-images.githubusercontent.com/93355594/141396067-f530fe73-2b33-44fd-aa8f-8eec75b3ead3.png">
 
 ### Findings
 From both linear regression and panel regression methodologies, I can conclude that there is a positive relationship between happiness and Log of GDP per capita. The relationship indicates that people in richer countries are on average happier than people in poorer countries. My finding is consistent with my initial hypothesis.
